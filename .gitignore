@@ -3,3 +3,4 @@ charts/*
 index.yaml
 test.yaml
 *.lock
+**/values.testing.yaml

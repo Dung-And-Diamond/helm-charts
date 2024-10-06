@@ -1,7 +1,7 @@
 apiVersion: v2
 name: snipeit
-version: 3.4.1
-appVersion: v6.0.14
+version: 4.0.1
+appVersion: v7.0.13
 description: A free open source IT asset/license management system
 keywords:
 - snipeit
@@ -10,11 +10,14 @@ keywords:
 home: https://snipeitapp.com
 icon: https://snipeitapp.com/img/logos/snipe-it-logo-xs.png
 sources:
+- https://github.com/Dung-And-Diamond/helm-charts
 - https://github.com/t3n/helm-charts
 - https://github.com/snipe/snipe-it
 maintainers:
 - name: mschmidt291
   email: max.schmidt@t3n.de
+- name: Hesh925
+  email: contact@hesh925.net
 
 dependencies:
 - name: mysql
